@@ -117,8 +117,8 @@ const handleSubmit = async (e) => {
 
     const result = response.json();
     console.log(result);
+    form.reset();
   }
-  form.reset();
 };
 
 form.addEventListener("submit", handleSubmit);
