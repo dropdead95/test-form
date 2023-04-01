@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <form id="form" class="form">
+        <div class="input-wrapper">
+          <label for="name">Имя</label>
+          <input name="name" class="text" id="name" type="text" />
+          <div class="error"></div>
+        </div>
+        <div class="input-wrapper">
+          <label for="surname">Фамилия</label>
+          <input name="surname" class="text" id="surname" type="text" />
+          <div class="error"></div>
+        </div>
+        <div class="input-wrapper">
+          <label for="date">Дата рождения</label>
+          <input name="date" id="date" type="date" />
+          <div class="error"></div>
+        </div>
+        <div class="input-wrapper">
+          <label for="email">Электронная почта</label>
+          <input name="email" id="email" type="email" />
+          <div class="error"></div>
+        </div>
+        <div class="input-wrapper">
+          <label for="password">Пароль</label>
+          <input name="password" id="password" type="password" />
+          <div class="error"></div>
+        </div>
+        <div class="input-wrapper">
+          <label for="repeat-password">Повторите пароль</label>
+          <input name="repeat-password" id="repeat-password" type="password" />
+          <div class="error"></div>
+        </div>
+        <button class="btn" type="submit">Зарегистрироваться</button>
+      </form>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>

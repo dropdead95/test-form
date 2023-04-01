@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 400;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+label {
+  margin-bottom: 10px;
+}
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1400px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+.form {
+  max-width: 500px;
+  border: 5px solid gainsboro;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 15px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+input {
+  font-size: 16px;
+  line-height: 19px;
+  width: 100%;
+  border: 2px solid gray;
+  opacity: 0.5;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  cursor: pointer;
+  transition: all 200ms;
+}
+
+input:hover {
+  opacity: 1;
+}
+
+input:focus {
+  border-color: chocolate;
+}
+
+button {
+  max-width: 100%;
+  font-size: 16px;
+  line-height: 19px;
+  padding: 10px 0;
+  background-color: chocolate;
+  border-radius: 15px;
+  color: aliceblue;
+  opacity: 0.7;
+  transition: all 200ms;
+}
+button:hover {
+  opacity: 1;
+}
+.error {
+  display: none;
+  font-size: 14px;
+  line-height: 12px;
+  color: red;
+}
+
+.active {
+  display: block;
+  transition: all 300ms;
+}
+
+.invalid {
+  border: 2px solid red;
+}
